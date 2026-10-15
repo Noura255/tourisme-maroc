@@ -1,0 +1,5 @@
+body { background: #f7f5f1; }
+.navbar-brand { font-family: Georgia, serif; }
+.card { border-color: #e2ddd3; }
+.section-title { margin-top: 2rem; border-bottom: 1px solid #ddd8cf; padding-bottom: .25rem; }
+.muted { color: #6c757d; }

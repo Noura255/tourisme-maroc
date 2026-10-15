@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      # Atlas : définir la variable d'environnement MONGODB_URI (ne jamais la mettre dans Git)
+      uri: ${MONGODB_URI:mongodb://localhost:27017/tourisme_maroc}
+      field-naming-strategy: org.springframework.data.mapping.model.SnakeCaseFieldNamingStrategy
+      auto-index-creation: true
+  thymeleaf:
+    cache: false
+server:
+  port: 8080

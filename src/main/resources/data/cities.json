@@ -1,0 +1,122 @@
+[
+  {
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "name": "Marrakech",
+    "description": "Ville impériale du sud, mêlant médina, jardins et vie nocturne, avec l'Atlas à proximité.",
+    "population": null,
+    "best_season": "printemps et automne",
+    "climate": null,
+    "airport_nearby": true,
+    "train_station": true,
+    "languages": [
+      "arabe",
+      "français",
+      "amazigh"
+    ],
+    "average_daily_budget_mad": null,
+    "safety_tips": [
+      "Convenir du prix avant de monter dans un taxi ou avec un guide",
+      "Attention aux faux guides dans la médina"
+    ],
+    "local_specialties": [
+      "tanjia",
+      "tajine",
+      "pastilla"
+    ],
+    "typical_duration_days": 3,
+    "nearby_cities": [
+      "Essaouira",
+      "Ouarzazate"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -7.9811,
+        31.6295
+      ]
+    },
+    "source": null,
+    "last_verified": null
+  },
+  {
+    "city": "Fès",
+    "region": "Fès-Meknès",
+    "name": "Fès",
+    "description": "Capitale spirituelle et artisanale, avec l'une des plus grandes médinas piétonnes du monde.",
+    "population": null,
+    "best_season": "printemps et automne",
+    "climate": null,
+    "airport_nearby": true,
+    "train_station": true,
+    "languages": [
+      "arabe",
+      "français",
+      "amazigh"
+    ],
+    "average_daily_budget_mad": null,
+    "safety_tips": [
+      "Convenir du prix avant de monter dans un taxi ou avec un guide",
+      "Attention aux faux guides dans la médina"
+    ],
+    "local_specialties": [
+      "pastilla fassia",
+      "tajine",
+      "harira"
+    ],
+    "typical_duration_days": 3,
+    "nearby_cities": [
+      "Meknès",
+      "Chefchaouen"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -5.0078,
+        34.0181
+      ]
+    },
+    "source": null,
+    "last_verified": null
+  },
+  {
+    "city": "Meknès",
+    "region": "Fès-Meknès",
+    "name": "Meknès",
+    "description": "Ville impériale plus calme, proche de Volubilis, avec de grandes portes monumentales.",
+    "population": null,
+    "best_season": "printemps et automne",
+    "climate": null,
+    "airport_nearby": false,
+    "train_station": true,
+    "languages": [
+      "arabe",
+      "français",
+      "amazigh"
+    ],
+    "average_daily_budget_mad": null,
+    "safety_tips": [
+      "Convenir du prix avant de monter dans un taxi ou avec un guide",
+      "Attention aux faux guides dans la médina"
+    ],
+    "local_specialties": [
+      "vins et olives de la région",
+      "tajine",
+      "pastilla"
+    ],
+    "typical_duration_days": 2,
+    "nearby_cities": [
+      "Fès",
+      "Rabat"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -5.5547,
+        33.8935
+      ]
+    },
+    "source": null,
+    "last_verified": null
+  }
+]

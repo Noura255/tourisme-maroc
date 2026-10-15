@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="fr">
+<head th:replace="~{fragments :: head(${place.name})}"></head>
+<body>
+<nav th:replace="~{fragments :: nav}"></nav>
+<main class="container py-4">
+  <a th:href="@{/cities/{n}(n=${place.city})}" class="muted">&larr; <span th:text="${place.city}">Ville</span></a>
+  <h1 class="mt-2" th:text="${place.name}">Nom</h1>
+  <p class="muted" th:text="${place.category}"></p>
+  <p th:text="${place.description}"></p>
+  <span class="badge bg-secondary me-1" th:each="t : ${place.tags}" th:text="${t}"></span>
+
+  <table class="table table-sm mt-3">
+    <tr th:each="e : ${details}">
+      <th style="width:35%" th:text="${e.key}">Champ</th>
+      <td th:text="${e.value != null ? e.value : 'à compléter'}" th:classappend="${e.value == null} ? 'text-warning'"></td>
+    </tr>
+  </table>
+
+  <div th:if="${!#lists.isEmpty(nearby)}">
+    <h2 class="h5 mt-4">À proximité</h2>
+    <ul>
+      <li th:each="n : ${nearby}"><a th:href="@{/places/attractions/{id}(id=${n.id})}" th:text="${n.name}">Lieu</a></li>
+    </ul>
+  </div>
+</main>
+</body>
+</html>

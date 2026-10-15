@@ -1,0 +1,142 @@
+[
+  {
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "name": "Aéroport Marrakech-Ménara (RAK)",
+    "category": "Transport",
+    "subcategory": null,
+    "description": "Aéroport international de Marrakech.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -8.0363,
+        31.6069
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [],
+    "source": null,
+    "last_verified": null,
+    "type": "aéroport",
+    "duration_min": null,
+    "price_mad": null
+  },
+  {
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "name": "Gare de Marrakech",
+    "category": "Transport",
+    "subcategory": null,
+    "description": "Gare ONCF de Marrakech, quartier Guéliz.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -8.0165,
+        31.6333
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [],
+    "source": null,
+    "last_verified": null,
+    "type": "gare",
+    "duration_min": null,
+    "price_mad": null
+  },
+  {
+    "city": "Fès",
+    "region": "Fès-Meknès",
+    "name": "Aéroport Fès-Saïs (FEZ)",
+    "category": "Transport",
+    "subcategory": null,
+    "description": "Aéroport de Fès, à quelques km au sud de la ville.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -4.9783,
+        33.9272
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [],
+    "source": null,
+    "last_verified": null,
+    "type": "aéroport",
+    "duration_min": null,
+    "price_mad": null
+  },
+  {
+    "city": "Fès",
+    "region": "Fès-Meknès",
+    "name": "Gare de Fès",
+    "category": "Transport",
+    "subcategory": null,
+    "description": "Gare ONCF de Fès.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -4.9944,
+        34.0345
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [],
+    "source": null,
+    "last_verified": null,
+    "type": "gare",
+    "duration_min": null,
+    "price_mad": null
+  },
+  {
+    "city": "Meknès",
+    "region": "Fès-Meknès",
+    "name": "Gare de Meknès",
+    "category": "Transport",
+    "subcategory": null,
+    "description": "Gare ONCF de Meknès, dans la ville nouvelle.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -5.5313,
+        33.8886
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [],
+    "source": null,
+    "last_verified": null,
+    "type": "gare",
+    "duration_min": null,
+    "price_mad": null
+  }
+]

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="fr">
+<head th:replace="~{fragments :: head('Mon itinéraire')}"></head>
+<body>
+<nav th:replace="~{fragments :: nav}"></nav>
+<main class="container py-4" style="max-width: 720px">
+  <h1>Mon itinéraire</h1>
+  <form th:action="@{/recommend}" th:object="${form}" method="post">
+    <div class="mb-3">
+      <label class="form-label">Ville</label>
+      <select class="form-select" th:field="*{city}">
+        <option th:each="c : ${cities}" th:value="${c.name}" th:text="${c.name}"></option>
+      </select>
+      <div class="text-danger" th:if="${#fields.hasErrors('city')}" th:errors="*{city}"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <label class="form-label">Je voyage en</label>
+        <select class="form-select" th:field="*{travelerType}">
+          <option th:each="t : ${travelerTypes}" th:value="${t}" th:text="${t}"></option>
+        </select>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label class="form-label">Budget (1 = économique, 4 = luxe)</label>
+        <select class="form-select" th:field="*{budgetLevel}">
+          <option th:each="b : ${#numbers.sequence(1, 4)}" th:value="${b}" th:text="${b}"></option>
+        </select>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label class="form-label">Nombre de jours</label>
+        <input type="number" class="form-control" th:field="*{days}" min="1" max="7">
+        <div class="text-danger" th:if="${#fields.hasErrors('days')}" th:errors="*{days}"></div>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label class="form-label d-block">Centres d'intérêt</label>
+      <label class="form-check form-check-inline" th:each="i : ${interestOptions}">
+        <input class="form-check-input" type="checkbox" th:field="*{interests}" th:value="${i}">
+        <span class="form-check-label" th:text="${i}"></span>
+      </label>
+    </div>
+    <button class="btn btn-dark" type="submit">Générer l'itinéraire</button>
+  </form>
+</main>
+</body>
+</html>

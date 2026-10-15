@@ -1,0 +1,52 @@
+[
+  {
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "name": "Festival International du Film de Marrakech",
+    "category": "Événement",
+    "subcategory": null,
+    "description": "Festival de cinéma qui a généralement lieu à l'automne ou au début de l'hiver ; dates à vérifier chaque année.",
+    "address": null,
+    "location": null,
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "culture"
+    ],
+    "source": null,
+    "last_verified": null,
+    "month": null,
+    "date_start": null,
+    "date_end": null,
+    "price_mad": null
+  },
+  {
+    "city": "Fès",
+    "region": "Fès-Meknès",
+    "name": "Festival de Fès des Musiques Sacrées du Monde",
+    "category": "Événement",
+    "subcategory": null,
+    "description": "Festival de musique spirituelle, historiquement organisé au printemps ; dates à vérifier.",
+    "address": null,
+    "location": null,
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "culture"
+    ],
+    "source": null,
+    "last_verified": null,
+    "month": null,
+    "date_start": null,
+    "date_end": null,
+    "price_mad": null
+  }
+]

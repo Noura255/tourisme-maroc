@@ -1,0 +1,705 @@
+[
+  {
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "name": "Place Jemaa el-Fna",
+    "category": "Place",
+    "subcategory": null,
+    "description": "Grande place animée de la médina : conteurs, musiciens, jus d'orange le jour et étals de cuisine le soir.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -7.989,
+        31.6258
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "gratuit",
+      "photo",
+      "gastronomie",
+      "incontournable"
+    ],
+    "source": null,
+    "last_verified": null,
+    "entry_price_mad": null,
+    "visit_duration_min": 90,
+    "best_time_to_visit": "fin d'après-midi et soirée",
+    "accessibility": null,
+    "guided_tour_available": null,
+    "indoor_outdoor": "extérieur",
+    "suitable_for": [
+      "couple",
+      "famille",
+      "solo",
+      "groupe"
+    ]
+  },
+  {
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "name": "Palais de la Bahia",
+    "category": "Monument",
+    "subcategory": "Palais",
+    "description": "Palais du XIXe siècle aux cours intérieures, plafonds peints et zelliges, bon exemple de l'architecture de la médina.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -7.9833,
+        31.6217
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "culture",
+      "architecture",
+      "photo"
+    ],
+    "source": null,
+    "last_verified": null,
+    "entry_price_mad": null,
+    "visit_duration_min": 60,
+    "best_time_to_visit": "matin",
+    "accessibility": null,
+    "guided_tour_available": null,
+    "indoor_outdoor": "mixte",
+    "suitable_for": [
+      "couple",
+      "famille",
+      "solo",
+      "groupe"
+    ]
+  },
+  {
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "name": "Jardin Majorelle",
+    "category": "Jardin",
+    "subcategory": "Jardin botanique",
+    "description": "Jardin botanique créé par le peintre Jacques Majorelle, célèbre pour sa villa bleue et ses cactus.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -8.003,
+        31.6417
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "photo",
+      "romantique",
+      "famille"
+    ],
+    "source": null,
+    "last_verified": null,
+    "entry_price_mad": null,
+    "visit_duration_min": 75,
+    "best_time_to_visit": "ouverture, pour éviter la foule",
+    "accessibility": null,
+    "guided_tour_available": null,
+    "indoor_outdoor": "extérieur",
+    "suitable_for": [
+      "couple",
+      "famille",
+      "solo",
+      "groupe"
+    ]
+  },
+  {
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "name": "Jardin de la Ménara",
+    "category": "Jardin",
+    "subcategory": "Jardin historique",
+    "description": "Vaste oliveraie avec un grand bassin et un pavillon, avec les montagnes de l'Atlas en toile de fond.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -8.0194,
+        31.6097
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "gratuit",
+      "famille",
+      "photo",
+      "détente"
+    ],
+    "source": null,
+    "last_verified": null,
+    "entry_price_mad": null,
+    "visit_duration_min": 60,
+    "best_time_to_visit": "coucher du soleil",
+    "accessibility": null,
+    "guided_tour_available": null,
+    "indoor_outdoor": "extérieur",
+    "suitable_for": [
+      "couple",
+      "famille",
+      "solo",
+      "groupe"
+    ]
+  },
+  {
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "name": "Le Jardin Secret",
+    "category": "Jardin",
+    "subcategory": "Jardin de riad",
+    "description": "Riad restauré de la médina avec deux jardins, l'un de style islamique et l'autre exotique, et une tour panoramique.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -7.9877,
+        31.632
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "calme",
+      "romantique",
+      "photo",
+      "médina"
+    ],
+    "source": null,
+    "last_verified": null,
+    "entry_price_mad": null,
+    "visit_duration_min": 60,
+    "best_time_to_visit": null,
+    "accessibility": null,
+    "guided_tour_available": null,
+    "indoor_outdoor": "mixte",
+    "suitable_for": [
+      "couple",
+      "famille",
+      "solo",
+      "groupe"
+    ]
+  },
+  {
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "name": "Souks de Marrakech",
+    "category": "Souk",
+    "subcategory": null,
+    "description": "Réseau de ruelles au nord de Jemaa el-Fna : épices, cuir, lanternes, tapis et babouches.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -7.987,
+        31.633
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "shopping",
+      "artisanat",
+      "culture"
+    ],
+    "source": null,
+    "last_verified": null,
+    "entry_price_mad": null,
+    "visit_duration_min": 120,
+    "best_time_to_visit": "matin",
+    "accessibility": null,
+    "guided_tour_available": null,
+    "indoor_outdoor": "mixte",
+    "suitable_for": [
+      "couple",
+      "famille",
+      "solo",
+      "groupe"
+    ]
+  },
+  {
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "name": "Palais El Badi",
+    "category": "Monument",
+    "subcategory": "Palais en ruines",
+    "description": "Ruines d'un grand palais saadien du XVIe siècle, avec bassins, cours et nids de cigognes sur les murs.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -7.9862,
+        31.6178
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "histoire",
+      "photo",
+      "culture"
+    ],
+    "source": null,
+    "last_verified": null,
+    "entry_price_mad": null,
+    "visit_duration_min": 60,
+    "best_time_to_visit": null,
+    "accessibility": null,
+    "guided_tour_available": null,
+    "indoor_outdoor": "extérieur",
+    "suitable_for": [
+      "couple",
+      "famille",
+      "solo",
+      "groupe"
+    ]
+  },
+  {
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "name": "Tombeaux saadiens",
+    "category": "Monument",
+    "subcategory": "Mausolée",
+    "description": "Nécropole de la dynastie saadienne, redécouverte au XXe siècle, décorée de cèdre sculpté et de zelliges.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -7.9893,
+        31.6176
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "histoire",
+      "culture",
+      "architecture"
+    ],
+    "source": null,
+    "last_verified": null,
+    "entry_price_mad": null,
+    "visit_duration_min": 40,
+    "best_time_to_visit": null,
+    "accessibility": null,
+    "guided_tour_available": null,
+    "indoor_outdoor": "mixte",
+    "suitable_for": [
+      "couple",
+      "famille",
+      "solo",
+      "groupe"
+    ]
+  },
+  {
+    "city": "Fès",
+    "region": "Fès-Meknès",
+    "name": "Fès el-Bali (médina)",
+    "category": "Médina",
+    "subcategory": "Médina",
+    "description": "Médina médiévale classée à l'UNESCO, l'une des plus grandes zones piétonnes urbaines du monde.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -4.973,
+        34.065
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "UNESCO",
+      "culture",
+      "artisanat",
+      "incontournable"
+    ],
+    "source": null,
+    "last_verified": null,
+    "entry_price_mad": null,
+    "visit_duration_min": 240,
+    "best_time_to_visit": "matin",
+    "accessibility": null,
+    "guided_tour_available": true,
+    "indoor_outdoor": "extérieur",
+    "suitable_for": [
+      "couple",
+      "famille",
+      "solo",
+      "groupe"
+    ]
+  },
+  {
+    "city": "Fès",
+    "region": "Fès-Meknès",
+    "name": "Université Al Quaraouiyine",
+    "category": "Monument",
+    "subcategory": "Université / mosquée",
+    "description": "Complexe fondé au IXe siècle, souvent cité comme l'une des plus anciennes universités encore en activité ; l'accès intérieur est limité.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -4.9735,
+        34.0644
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "histoire",
+      "culture",
+      "architecture"
+    ],
+    "source": null,
+    "last_verified": null,
+    "entry_price_mad": null,
+    "visit_duration_min": 30,
+    "best_time_to_visit": null,
+    "accessibility": null,
+    "guided_tour_available": null,
+    "indoor_outdoor": "mixte",
+    "suitable_for": [
+      "couple",
+      "famille",
+      "solo",
+      "groupe"
+    ]
+  },
+  {
+    "city": "Fès",
+    "region": "Fès-Meknès",
+    "name": "Tanneries Chouara",
+    "category": "Site artisanal",
+    "subcategory": null,
+    "description": "Tannerie traditionnelle aux cuves de teinture, que l'on regarde depuis les terrasses des boutiques de cuir voisines.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -4.9718,
+        34.0662
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "photo",
+      "artisanat",
+      "culture"
+    ],
+    "source": null,
+    "last_verified": null,
+    "entry_price_mad": null,
+    "visit_duration_min": 30,
+    "best_time_to_visit": "matin",
+    "accessibility": null,
+    "guided_tour_available": null,
+    "indoor_outdoor": "extérieur",
+    "suitable_for": [
+      "couple",
+      "famille",
+      "solo",
+      "groupe"
+    ]
+  },
+  {
+    "city": "Fès",
+    "region": "Fès-Meknès",
+    "name": "Medersa Bou Inania",
+    "category": "Monument",
+    "subcategory": "Medersa",
+    "description": "École coranique du XIVe siècle, remarquable pour sa cour en zelliges, son stuc et son bois de cèdre sculpté.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -4.9795,
+        34.0627
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "architecture",
+      "histoire",
+      "photo"
+    ],
+    "source": null,
+    "last_verified": null,
+    "entry_price_mad": null,
+    "visit_duration_min": 45,
+    "best_time_to_visit": null,
+    "accessibility": null,
+    "guided_tour_available": null,
+    "indoor_outdoor": "intérieur",
+    "suitable_for": [
+      "couple",
+      "famille",
+      "solo",
+      "groupe"
+    ]
+  },
+  {
+    "city": "Fès",
+    "region": "Fès-Meknès",
+    "name": "Bab Boujloud",
+    "category": "Monument",
+    "subcategory": "Porte",
+    "description": "Porte monumentale aux zelliges bleus et verts, point d'entrée principal vers la médina de Fès.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -4.983,
+        34.0633
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "gratuit",
+      "photo",
+      "médina"
+    ],
+    "source": null,
+    "last_verified": null,
+    "entry_price_mad": null,
+    "visit_duration_min": 20,
+    "best_time_to_visit": null,
+    "accessibility": null,
+    "guided_tour_available": null,
+    "indoor_outdoor": "extérieur",
+    "suitable_for": [
+      "couple",
+      "famille",
+      "solo",
+      "groupe"
+    ]
+  },
+  {
+    "city": "Meknès",
+    "region": "Fès-Meknès",
+    "name": "Bab Mansour",
+    "category": "Monument",
+    "subcategory": "Porte",
+    "description": "Porte monumentale du début du XVIIIe siècle, considérée comme l'une des plus belles du Maroc.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -5.5578,
+        33.8933
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "gratuit",
+      "photo",
+      "architecture",
+      "histoire"
+    ],
+    "source": null,
+    "last_verified": null,
+    "entry_price_mad": null,
+    "visit_duration_min": 20,
+    "best_time_to_visit": null,
+    "accessibility": null,
+    "guided_tour_available": null,
+    "indoor_outdoor": "extérieur",
+    "suitable_for": [
+      "couple",
+      "famille",
+      "solo",
+      "groupe"
+    ]
+  },
+  {
+    "city": "Meknès",
+    "region": "Fès-Meknès",
+    "name": "Place El Hedim",
+    "category": "Place",
+    "subcategory": null,
+    "description": "Place centrale face à Bab Mansour, lieu de rendez-vous avec cafés, terrasses et animations le soir.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -5.5575,
+        33.8935
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "gratuit",
+      "ambiance",
+      "gastronomie"
+    ],
+    "source": null,
+    "last_verified": null,
+    "entry_price_mad": null,
+    "visit_duration_min": 45,
+    "best_time_to_visit": "fin d'après-midi",
+    "accessibility": null,
+    "guided_tour_available": null,
+    "indoor_outdoor": "extérieur",
+    "suitable_for": [
+      "couple",
+      "famille",
+      "solo",
+      "groupe"
+    ]
+  },
+  {
+    "city": "Meknès",
+    "region": "Fès-Meknès",
+    "name": "Heri es-Souani",
+    "category": "Monument",
+    "subcategory": "Greniers royaux",
+    "description": "Ensemble de greniers et d'écuries royales de l'époque de Moulay Ismaïl, aux voûtes imposantes.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -5.546,
+        33.88
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "histoire",
+      "architecture",
+      "calme"
+    ],
+    "source": null,
+    "last_verified": null,
+    "entry_price_mad": null,
+    "visit_duration_min": 45,
+    "best_time_to_visit": null,
+    "accessibility": null,
+    "guided_tour_available": null,
+    "indoor_outdoor": "mixte",
+    "suitable_for": [
+      "couple",
+      "famille",
+      "solo",
+      "groupe"
+    ]
+  },
+  {
+    "city": "Meknès",
+    "region": "Fès-Meknès",
+    "name": "Site archéologique de Volubilis",
+    "category": "Site archéologique",
+    "subcategory": "Ruines romaines",
+    "description": "Ruines romaines classées à l'UNESCO, à une trentaine de km de Meknès, avec mosaïques et arc de triomphe.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -5.5547,
+        34.0722
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "UNESCO",
+      "histoire",
+      "excursion",
+      "photo"
+    ],
+    "source": null,
+    "last_verified": null,
+    "entry_price_mad": null,
+    "visit_duration_min": 120,
+    "best_time_to_visit": "matin ou fin d'après-midi",
+    "accessibility": null,
+    "guided_tour_available": null,
+    "indoor_outdoor": "extérieur",
+    "suitable_for": [
+      "couple",
+      "famille",
+      "solo",
+      "groupe"
+    ]
+  }
+]

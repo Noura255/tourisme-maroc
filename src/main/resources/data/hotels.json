@@ -1,0 +1,181 @@
+[
+  {
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "name": "La Mamounia",
+    "category": "Hôtel",
+    "subcategory": null,
+    "description": "Palace historique d'Art déco et de style marocain, avec grands jardins et spa.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -7.9946,
+        31.6209
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "luxe",
+      "jardin",
+      "spa"
+    ],
+    "source": null,
+    "last_verified": null,
+    "type": "Palace",
+    "stars": 5,
+    "price_per_night_mad": {
+      "min": null,
+      "max": null
+    },
+    "price_level": 4,
+    "amenities": [
+      "piscine",
+      "spa",
+      "wifi",
+      "hammam"
+    ],
+    "rooms_types": [],
+    "breakfast_included": null,
+    "distance_to_center_km": null,
+    "booking_url": null
+  },
+  {
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "name": "Riad Kniza",
+    "category": "Hôtel",
+    "subcategory": null,
+    "description": "Riad de luxe de la médina, souvent cité pour son décor traditionnel et son accueil.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -7.995,
+        31.634
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "médina",
+      "romantique",
+      "riad"
+    ],
+    "source": null,
+    "last_verified": null,
+    "type": "Riad",
+    "stars": 5,
+    "price_per_night_mad": {
+      "min": null,
+      "max": null
+    },
+    "price_level": 3,
+    "amenities": [
+      "wifi",
+      "petit-déjeuner"
+    ],
+    "rooms_types": [],
+    "breakfast_included": null,
+    "distance_to_center_km": null,
+    "booking_url": null
+  },
+  {
+    "city": "Fès",
+    "region": "Fès-Meknès",
+    "name": "Palais Jamaï",
+    "category": "Hôtel",
+    "subcategory": null,
+    "description": "Ancien palais du XIXe siècle surplombant la médina, avec jardins et piscine.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -4.9755,
+        34.069
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "luxe",
+      "vue médina",
+      "jardin"
+    ],
+    "source": null,
+    "last_verified": null,
+    "type": "Palace",
+    "stars": 5,
+    "price_per_night_mad": {
+      "min": null,
+      "max": null
+    },
+    "price_level": 4,
+    "amenities": [
+      "piscine",
+      "spa",
+      "wifi"
+    ],
+    "rooms_types": [],
+    "breakfast_included": null,
+    "distance_to_center_km": null,
+    "booking_url": null
+  },
+  {
+    "city": "Meknès",
+    "region": "Fès-Meknès",
+    "name": "Hôtel Transatlantique",
+    "category": "Hôtel",
+    "subcategory": null,
+    "description": "Hôtel perché au-dessus de la vallée de l'Oued Boufekrane, avec vue sur la médina.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -5.543,
+        33.883
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "vue",
+      "piscine"
+    ],
+    "source": null,
+    "last_verified": null,
+    "type": "Hôtel",
+    "stars": 4,
+    "price_per_night_mad": {
+      "min": null,
+      "max": null
+    },
+    "price_level": 3,
+    "amenities": [
+      "piscine",
+      "wifi",
+      "parking"
+    ],
+    "rooms_types": [],
+    "breakfast_included": null,
+    "distance_to_center_km": null,
+    "booking_url": null
+  }
+]

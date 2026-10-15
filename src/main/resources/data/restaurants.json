@@ -1,0 +1,176 @@
+[
+  {
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "name": "Nomad",
+    "category": "Restaurant",
+    "subcategory": null,
+    "description": "Terrasse sur les souks avec cuisine marocaine revisitée.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -7.9873,
+        31.631
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "rooftop",
+      "vue",
+      "médina"
+    ],
+    "source": null,
+    "last_verified": null,
+    "cuisine": "Marocaine moderne",
+    "type": "Rooftop",
+    "avg_price_per_person_mad": {
+      "min": null,
+      "max": null
+    },
+    "price_level": 3,
+    "specialties": [
+      "tajine",
+      "salades"
+    ],
+    "halal": null,
+    "vegetarian_options": null,
+    "alcohol_served": null,
+    "reservation_required": null
+  },
+  {
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "name": "Café des Épices",
+    "category": "Restaurant",
+    "subcategory": null,
+    "description": "Café-terrasse sur la place des Épices, pratique pendant la visite des souks.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -7.986,
+        31.6322
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "souks",
+      "terrasse"
+    ],
+    "source": null,
+    "last_verified": null,
+    "cuisine": "Marocaine",
+    "type": "Café",
+    "avg_price_per_person_mad": {
+      "min": null,
+      "max": null
+    },
+    "price_level": 2,
+    "specialties": [
+      "jus",
+      "salades",
+      "tajine"
+    ],
+    "halal": null,
+    "vegetarian_options": null,
+    "alcohol_served": null,
+    "reservation_required": null
+  },
+  {
+    "city": "Fès",
+    "region": "Fès-Meknès",
+    "name": "Café Clock",
+    "category": "Restaurant",
+    "subcategory": null,
+    "description": "Café culturel de la médina, avec concerts et ateliers de cuisine selon la saison.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -4.978,
+        34.064
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "culture",
+      "médina"
+    ],
+    "source": null,
+    "last_verified": null,
+    "cuisine": "Marocaine / internationale",
+    "type": "Café",
+    "avg_price_per_person_mad": {
+      "min": null,
+      "max": null
+    },
+    "price_level": 2,
+    "specialties": [
+      "burger de chameau",
+      "pastilla"
+    ],
+    "halal": null,
+    "vegetarian_options": null,
+    "alcohol_served": null,
+    "reservation_required": null
+  },
+  {
+    "city": "Meknès",
+    "region": "Fès-Meknès",
+    "name": "Restaurant Le Collier de la Colombe",
+    "category": "Restaurant",
+    "subcategory": null,
+    "description": "Restaurant installé dans une maison traditionnelle à proximité de la médina.",
+    "address": null,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -5.5565,
+        33.8925
+      ]
+    },
+    "phone": null,
+    "website": null,
+    "opening_hours": null,
+    "rating": null,
+    "reviews_count": null,
+    "images": [],
+    "tags": [
+      "médina",
+      "dîner"
+    ],
+    "source": null,
+    "last_verified": null,
+    "cuisine": "Marocaine / internationale",
+    "type": "Restaurant",
+    "avg_price_per_person_mad": {
+      "min": null,
+      "max": null
+    },
+    "price_level": 3,
+    "specialties": [
+      "tajine",
+      "pastilla"
+    ],
+    "halal": null,
+    "vegetarian_options": null,
+    "alcohol_served": null,
+    "reservation_required": null
+  }
+]

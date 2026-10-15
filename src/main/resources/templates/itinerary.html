@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="fr">
+<head th:replace="~{fragments :: head('Itinéraire')}"></head>
+<body>
+<nav th:replace="~{fragments :: nav}"></nav>
+<main class="container py-4">
+  <h1 th:text="'Itinéraire à ' + ${result.city}">Itinéraire</h1>
+
+  <div class="card mb-4" th:if="${result.hotel != null}">
+    <div class="card-body">
+      <h2 class="h5">Hébergement conseillé</h2>
+      <a th:href="@{/places/hotels/{id}(id=${result.hotel.id})}" th:text="${result.hotel.name}">Hôtel</a>
+      <p class="muted mb-0" th:text="${result.hotel.description}"></p>
+    </div>
+  </div>
+
+  <div class="card mb-3" th:each="d : ${result.days}">
+    <div class="card-body">
+      <h2 class="h5" th:text="'Jour ' + ${d.number} + ' (environ ' + ${d.totalMinutes} + ' min de visite)'">Jour</h2>
+      <ol>
+        <li th:each="s : ${d.stops}">
+          <a th:href="@{/places/attractions/{id}(id=${s.id})}" th:text="${s.name}">Lieu</a>
+          <span class="muted" th:if="${s.visitDurationMin != null}" th:text="'(' + ${s.visitDurationMin} + ' min)'"></span>
+        </li>
+      </ol>
+      <p class="mb-0" th:if="${d.lunch != null}">
+        <b>Déjeuner :</b>
+        <a th:href="@{/places/restaurants/{id}(id=${d.lunch.id})}" th:text="${d.lunch.name}">Restaurant</a>
+      </p>
+    </div>
+  </div>
+  <a class="btn btn-outline-dark" th:href="@{/recommend}">Modifier mes choix</a>
+</main>
+</body>
+</html>

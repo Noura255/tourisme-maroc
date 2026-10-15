@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="fr">
+<head th:replace="~{fragments :: head(${city.name})}"></head>
+<body>
+<nav th:replace="~{fragments :: nav}"></nav>
+<main class="container py-4">
+  <h1 th:text="${city.name}">Ville</h1>
+  <p th:text="${city.description}"></p>
+  <p class="muted">
+    <span th:if="${city.bestSeason != null}" th:text="'Saison : ' + ${city.bestSeason}"></span>
+    <span th:if="${city.typicalDurationDays != null}" th:text="' · Durée conseillée : ' + ${city.typicalDurationDays} + ' jours'"></span>
+  </p>
+  <p th:if="${city.localSpecialties != null}"><b>Spécialités :</b> <span th:text="${#strings.listJoin(city.localSpecialties, ', ')}"></span></p>
+
+  <h2 class="h4 section-title">Attractions</h2>
+  <div class="mb-3">
+    <a class="btn btn-sm" th:classappend="${category == null} ? 'btn-dark' : 'btn-outline-dark'" th:href="@{/cities/{n}(n=${city.name})}">Toutes</a>
+    <a class="btn btn-sm" th:each="c : ${categories}" th:classappend="${c == category} ? 'btn-dark' : 'btn-outline-dark'"
+       th:href="@{/cities/{n}(n=${city.name}, category=${c})}" th:text="${c}">Catégorie</a>
+  </div>
+  <div class="row g-3">
+    <div class="col-md-6" th:each="a : ${attractions}">
+      <div class="card h-100"><div class="card-body">
+        <h3 class="h5"><a th:href="@{/places/attractions/{id}(id=${a.id})}" th:text="${a.name}">Nom</a></h3>
+        <span class="badge bg-secondary" th:text="${a.category}"></span>
+        <span class="muted small" th:if="${a.visitDurationMin != null}" th:text="${a.visitDurationMin} + ' min'"></span>
+        <p class="mt-2 mb-0" th:text="${a.description}"></p>
+      </div></div>
+    </div>
+  </div>
+
+  <h2 class="h4 section-title">Hôtels</h2>
+  <div class="row g-3">
+    <div class="col-md-6" th:each="h : ${hotels}">
+      <div class="card h-100"><div class="card-body">
+        <h3 class="h5"><a th:href="@{/places/hotels/{id}(id=${h.id})}" th:text="${h.name}">Nom</a></h3>
+        <p class="muted small mb-1" th:text="${(h.type != null ? h.type : '') + (h.stars != null ? ' · ' + h.stars + ' étoiles' : '') + ' · ' + (h.priceLevel != null ? 'niveau de prix ' + h.priceLevel + '/4' : 'prix à compléter')}"></p>
+        <p class="mb-0" th:text="${h.description}"></p>
+      </div></div>
+    </div>
+    <p class="muted" th:if="${#lists.isEmpty(hotels)}">Aucun hôtel enregistré.</p>
+  </div>
+
+  <h2 class="h4 section-title">Restaurants</h2>
+  <div class="row g-3">
+    <div class="col-md-6" th:each="r : ${restaurants}">
+      <div class="card h-100"><div class="card-body">
+        <h3 class="h5"><a th:href="@{/places/restaurants/{id}(id=${r.id})}" th:text="${r.name}">Nom</a></h3>
+        <p class="muted small mb-1" th:text="${(r.cuisine != null ? r.cuisine : '') + ' · ' + (r.priceLevel != null ? 'niveau de prix ' + r.priceLevel + '/4' : 'prix à compléter')}"></p>
+        <p class="mb-0" th:text="${r.description}"></p>
+      </div></div>
+    </div>
+    <p class="muted" th:if="${#lists.isEmpty(restaurants)}">Aucun restaurant enregistré.</p>
+  </div>
+
+  <h2 class="h4 section-title">Activités</h2>
+  <ul>
+    <li th:each="a : ${activities}">
+      <a th:href="@{/places/activities/{id}(id=${a.id})}" th:text="${a.name}">Nom</a>
+      <span class="muted" th:text="${' – ' + a.description}"></span>
+    </li>
+  </ul>
+
+  <h2 class="h4 section-title">Événements</h2>
+  <ul>
+    <li th:each="e : ${events}">
+      <a th:href="@{/places/events/{id}(id=${e.id})}" th:text="${e.name}">Nom</a>
+      <span class="muted" th:text="${' – ' + e.description}"></span>
+    </li>
+    <li class="muted" th:if="${#lists.isEmpty(events)}">Aucun événement enregistré.</li>
+  </ul>
+
+  <h2 class="h4 section-title">Transport</h2>
+  <ul>
+    <li th:each="t : ${transports}"><b th:text="${t.name}">Nom</b> <span class="muted" th:text="${' – ' + t.description}"></span></li>
+  </ul>
+</main>
+</body>
+</html>
